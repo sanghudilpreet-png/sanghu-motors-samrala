@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#071018">
+<meta name="description" content="Sanghu Motors Samrala — vehicle washing, foam washing, dry cleaning, premium compound services, engine shine, polishing and vacuum cleaning. New Adarsh Nagar, near ITI, Samrala, Punjab 141114.">
+<link rel="canonical" href="https://sanghumotorssamrala.in/">
+<title>Sanghu Motors Samrala | Car Wash & Vehicle Care</title>
+
+<style>
+:root{
+ --ink:#071018;--ink2:#0d1722;--paper:#f6f8fa;--card:#fff;
+ --blue:#1684ff;--blue2:#0b5dcc;--line:#dfe5eb;--muted:#637080;
+ --shadow:0 18px 50px rgba(4,15,27,.12);--radius:20px
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+.container{width:min(1180px,92%);margin:auto}
+.topline{background:#050b11;color:#fff;text-align:center;padding:8px 12px;font-size:13px;font-weight:800;letter-spacing:.2px}
+header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.93);backdrop-filter:blur(14px);border-bottom:1px solid rgba(223,229,235,.9)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900}
+.brand img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:1px solid #dce3ea}
+.brand-name{font-size:17px;line-height:1.15}
+.brand-sub{font-size:11px;color:#738091;font-weight:700;margin-top:3px}
+.navlinks{display:flex;align-items:center;gap:25px;font-size:14px;font-weight:800}
+.navlinks a:not(.navcall):hover{color:var(--blue)}
+.navcall{background:var(--blue);color:#fff;padding:11px 17px;border-radius:10px;box-shadow:0 8px 20px rgba(22,132,255,.24)}
+.hero{
+ min-height:720px;display:flex;align-items:center;color:#fff;position:relative;overflow:hidden;
+ background:
+ linear-gradient(90deg,rgba(3,9,15,.94) 0%,rgba(3,9,15,.78) 48%,rgba(3,9,15,.25) 100%),
+ url("hero.jpg") center/cover
+}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:180px;background:linear-gradient(transparent,var(--paper));pointer-events:none}
+.hero-content{position:relative;z-index:2;max-width:780px;padding:95px 0}
+.kicker{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.08);padding:8px 13px;border-radius:999px;font-size:13px;font-weight:800}
+.dot{width:7px;height:7px;border-radius:50%;background:#58b0ff;box-shadow:0 0 16px #58b0ff}
+h1{font-size:clamp(44px,7vw,82px);letter-spacing:-3px;line-height:.98;margin:22px 0 20px}
+.hero p{max-width:700px;font-size:19px;color:#d8e2ec;margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 19px;border-radius:11px;font-weight:900;border:1px solid transparent;transition:.2s transform,.2s box-shadow}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 12px 28px rgba(22,132,255,.28)}
+.btn-white{background:#fff;color:#071018}
+.btn-outline{border-color:#dce4eb;background:#fff}
+.hero-meta{display:flex;flex-wrap:wrap;gap:22px;margin-top:42px;color:#c6d2de;font-size:13px;font-weight:800}
+.hero-meta span{display:flex;gap:8px;align-items:center}
+section{padding:100px 0}
+.section-tag{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--blue2);font-weight:900;margin-bottom:10px}
+.section-head{max-width:760px;margin-bottom:42px}
+.section-head h2{font-size:clamp(34px,5vw,52px);letter-spacing:-1.8px;line-height:1.05;margin:0 0 15px}
+.section-head p{color:var(--muted);font-size:17px;margin:0}
+.story{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.story-photo{position:relative}
+.story-photo img{height:500px;width:100%;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow)}
+.year-card{position:absolute;left:-20px;bottom:25px;background:#fff;padding:18px 22px;border-radius:15px;box-shadow:var(--shadow);font-weight:900}
+.year-card b{font-size:30px;display:block;line-height:1}
+.story-copy p{font-size:18px;color:#536170}
+.story-copy p:first-child{font-size:22px;color:var(--ink);font-weight:800}
+.services-wrap{background:#edf2f6}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.service{background:#fff;border:1px solid var(--line);border-radius:16px;padding:23px;min-height:145px;box-shadow:0 8px 30px rgba(4,15,27,.05);transition:.22s transform,.22s box-shadow}
+.service:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.service-icon{width:40px;height:40px;border-radius:12px;background:#e8f3ff;color:var(--blue2);display:grid;place-items:center;font-weight:1000;margin-bottom:15px}
+.service h3{font-size:17px;margin:0 0 5px}
+.service p{font-size:13px;color:var(--muted);margin:0}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feature{border:1px solid var(--line);background:#fff;border-radius:17px;padding:26px}
+.feature b{display:block;font-size:19px;margin-bottom:7px}
+.feature p{margin:0;color:var(--muted);font-size:14px}
+.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.gallery a{position:relative;overflow:hidden;border-radius:17px;background:#d9e0e6;min-height:230px}
+.gallery a:nth-child(1){grid-column:span 6;grid-row:span 2}
+.gallery a:nth-child(2),.gallery a:nth-child(3),.gallery a:nth-child(4){grid-column:span 3}
+.gallery a:nth-child(5),.gallery a:nth-child(6),.gallery a:nth-child(7),.gallery a:nth-child(8),.gallery a:nth-child(9){grid-column:span 4}
+.gallery img{width:100%;height:100%;min-height:230px;object-fit:cover;transition:transform .45s ease}
+.gallery a:hover img{transform:scale(1.06)}
+.gallery-label{position:absolute;left:14px;bottom:14px;background:rgba(4,12,20,.78);color:#fff;padding:7px 10px;border-radius:8px;font-size:11px;font-weight:800}
+.contact{background:#071018;color:#fff;position:relative;overflow:hidden}
+.contact:before{content:"";position:absolute;width:500px;height:500px;border-radius:50%;background:rgba(22,132,255,.10);right:-200px;top:-200px}
+.contact-grid{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.contact-card{background:#0d1823;border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:30px}
+.contact-card h3{font-size:25px;margin:0 0 20px}
+.info{padding:15px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.info:last-child{border-bottom:0}
+.info small{display:block;color:#8fa2b5;text-transform:uppercase;letter-spacing:1px;font-weight:900;font-size:10px}
+.info a{color:#fff}
+footer{background:#03080d;color:#8fa0af;text-align:center;padding:27px 15px;font-size:13px}
+.reveal{opacity:0;transform:translateY(18px);transition:.7s ease}
+.reveal.show{opacity:1;transform:none}
+@media(max-width:900px){
+ .navlinks a:not(.navcall){display:none}
+ .hero{min-height:650px}
+ .services{grid-template-columns:repeat(2,1fr)}
+ .story,.contact-grid{grid-template-columns:1fr}
+ .feature-grid{grid-template-columns:1fr}
+ .gallery a:nth-child(n){grid-column:span 6}
+ .gallery a:nth-child(1){grid-row:span 1}
+ .story-photo img{height:400px}
+}
+@media(max-width:560px){
+ .container{width:min(94%,1180px)}
+ .nav{height:68px}
+ .brand img{width:42px;height:42px}
+ .brand-name{font-size:15px}
+ .brand-sub{display:none}
+ .navcall{padding:9px 12px;font-size:12px}
+ .hero{min-height:650px}
+ .hero-content{padding:70px 0}
+ h1{letter-spacing:-2px;font-size:48px}
+ .hero p{font-size:16px}
+ .hero-meta{gap:10px;flex-direction:column;margin-top:30px}
+ section{padding:70px 0}
+ .services{grid-template-columns:1fr}
+ .gallery a:nth-child(n){grid-column:span 12;min-height:240px}
+ .story-photo img{height:340px}
+ .year-card{left:12px;bottom:15px}
+}
+</style>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"AutoWash",
+ "name":"Sanghu Motors Samrala",
+ "url":"https://sanghumotorssamrala.in/",
+ "telephone":"+918968166187",
+ "address":{"@type":"PostalAddress","streetAddress":"New Adarsh Nagar, near ITI","addressLocality":"Samrala","addressRegion":"Punjab","postalCode":"141114","addressCountry":"IN"},
+ "openingHours":"Mo-Su 07:00-19:00"
+}
+</script>
+</head>
+
+<body>
+<div class="topline">ਧੰਨ ਧੰਨ ਸ੍ਰੀ ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਸਾਹਿਬ ਜੀ</div>
+
+<header>
+ <div class="container nav">
+  <a class="brand" href="#home">
+   <img src="logo.jpg" alt="Sanghu Motors Samrala logo">
+   <div><div class="brand-name">Sanghu Motors Samrala</div><div class="brand-sub">Vehicle Washing & Care</div></div>
+  </a>
+  <nav class="navlinks">
+   <a href="#about">Our Story</a>
+   <a href="#services">Services</a>
+   <a href="#gallery">Our Work</a>
+   <a href="#contact">Contact</a>
+   <a class="navcall" href="tel:+918968166187">Call Now</a>
+  </nav>
+ </div>
+</header>
+
+<main id="home">
+<section class="hero">
+ <div class="container">
+  <div class="hero-content">
+   <div class="kicker"><span class="dot"></span> Samrala • Punjab</div>
+   <h1>Clean work.<br>Local trust.</h1>
+   <p>Sanghu Motors Samrala has been taking care of vehicles with washing, cleaning, polishing and finishing work for years.</p>
+   <div class="actions">
+    <a class="btn btn-primary" href="tel:+918968166187">Call +91 89681 66187</a>
+    <a class="btn btn-white" href="https://wa.me/918968166187?text=Hello%20Sanghu%20Motors%20Samrala">WhatsApp Us</a>
+   </div>
+   <div class="hero-meta">
+    <span>✓ Since 1989</span><span>✓ Samrala since 2020</span><span>✓ 7 AM – 7 PM</span>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="container">
+  <div class="section-head reveal">
+   <div class="section-tag">Our Story</div>
+   <h2>From Ghulal to Samrala.</h2>
+   <p>A local workshop built around experience and careful vehicle care.</p>
+  </div>
+  <div class="story">
+   <div class="story-photo reveal">
+    <img src="classic-car.jpg" alt="Vehicle at Sanghu Motors Samrala" loading="lazy">
+    <div class="year-card"><b>1989</b>Quality services began</div>
+   </div>
+   <div class="story-copy reveal">
+    <p>We have been providing quality services since 1989, starting from Ghulal and then shifting to Samrala in 2020.</p>
+    <p>Our services include car washing, foam washing, dry cleaning, premium compound services, engine shine, polishing and vacuum cleaning.</p>
+    <p>We keep the work practical and focused on your vehicle — clean outside, clean inside and properly finished.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="services-wrap" id="services">
+ <div class="container">
+  <div class="section-head reveal">
+   <div class="section-tag">What We Do</div>
+   <h2>Vehicle care, done properly.</h2>
+   <p>No unnecessary promises. Just the services we provide at the workshop.</p>
+  </div>
+  <div class="services">
+   <div class="service reveal"><div class="service-icon">01</div><h3>Car Washing</h3><p>Regular exterior washing for everyday vehicle care.</p></div>
+   <div class="service reveal"><div class="service-icon">02</div><h3>Foam Washing</h3><p>Foam-based cleaning for a thorough exterior wash.</p></div>
+   <div class="service reveal"><div class="service-icon">03</div><h3>Dry Cleaning</h3><p>Detailed cleaning work for the vehicle interior and surfaces.</p></div>
+   <div class="service reveal"><div class="service-icon">04</div><h3>Premium Compound</h3><p>Compound services for paintwork that needs extra attention.</p></div>
+   <div class="service reveal"><div class="service-icon">05</div><h3>Engine Shine</h3><p>Cleaning and finishing work for a cleaner engine bay.</p></div>
+   <div class="service reveal"><div class="service-icon">06</div><h3>Polishing</h3><p>Polishing work to improve the finish of the vehicle.</p></div>
+   <div class="service reveal"><div class="service-icon">07</div><h3>Vacuum Cleaning</h3><p>Interior vacuum cleaning for seats, floors and accessible areas.</p></div>
+   <div class="service reveal"><div class="service-icon">08</div><h3>Vehicle Care</h3><p>Practical cleaning and finishing for cars and other vehicles.</p></div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="container">
+  <div class="section-head reveal">
+   <div class="section-tag">Why People Come Here</div>
+   <h2>Experience from the workshop floor.</h2>
+  </div>
+  <div class="feature-grid">
+   <div class="feature reveal"><b>Since 1989</b><p>Years of experience in vehicle washing and cleaning work, beginning from Ghulal.</p></div>
+   <div class="feature reveal"><b>Samrala Since 2020</b><p>Serving customers from our current location in New Adarsh Nagar, near ITI.</p></div>
+   <div class="feature reveal"><b>Complete Cleaning Range</b><p>From foam washing and dry cleaning to polishing, compound, engine shine and vacuum cleaning.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="gallery" style="padding-top:20px">
+ <div class="container">
+  <div class="section-head reveal">
+   <div class="section-tag">Our Work</div>
+   <h2>Real photos from Sanghu Motors.</h2>
+   <p>Tap any photo to view it full size. These are the existing workshop photos.</p>
+  </div>
+  <div class="gallery">
+   <a href="hero.jpg" target="_blank" rel="noopener"><img src="hero.jpg" alt="Sanghu Motors Samrala vehicle washing" loading="lazy"><span class="gallery-label">Vehicle Care</span></a>
+   <a href="engine.jpg" target="_blank" rel="noopener"><img src="engine.jpg" alt="Engine shine and cleaning" loading="lazy"><span class="gallery-label">Engine Shine</span></a>
+   <a href="classic-car.jpg" target="_blank" rel="noopener"><img src="classic-car.jpg" alt="Classic car at workshop" loading="lazy"><span class="gallery-label">Vehicle Care</span></a>
+   <a href="jaguar.jpg" target="_blank" rel="noopener"><img src="jaguar.jpg" alt="Vehicle polishing and care" loading="lazy"><span class="gallery-label">Polishing</span></a>
+   <a href="motorcycle.jpg" target="_blank" rel="noopener"><img src="motorcycle.jpg" alt="Motorcycle cleaning" loading="lazy"><span class="gallery-label">Cleaning</span></a>
+   <a href="interior-cleaning.jpg" target="_blank" rel="noopener"><img src="interior-cleaning.jpg" alt="Interior cleaning" loading="lazy"><span class="gallery-label">Interior</span></a>
+   <a href="truck-wash.jpg" target="_blank" rel="noopener"><img src="truck-wash.jpg" alt="Truck washing" loading="lazy"><span class="gallery-label">Washing</span></a>
+   <a href="agri-machinery.jpg" target="_blank" rel="noopener"><img src="agri-machinery.jpg" alt="Agricultural machinery cleaning" loading="lazy"><span class="gallery-label">Vehicle Care</span></a>
+   <a href="punjabi-poster.jpg" target="_blank" rel="noopener"><img src="punjabi-poster.jpg" alt="Sanghu Motors Samrala" loading="lazy"><span class="gallery-label">Sanghu Motors</span></a>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="container">
+  <div class="section-head reveal">
+   <div class="section-tag" style="color:#5daeff">Visit Us</div>
+   <h2>Need your vehicle cleaned?</h2>
+   <p style="color:#aebdca">Call us or message on WhatsApp before you come.</p>
+  </div>
+  <div class="contact-grid">
+   <div class="contact-card reveal">
+    <h3>Contact Sanghu Motors</h3>
+    <div class="info"><small>Phone</small><a href="tel:+918968166187">+91 89681 66187</a><br><a href="tel:+919478525787">+91 94785 25787</a></div>
+    <div class="info"><small>Address</small>New Adarsh Nagar, near ITI,<br>Samrala, Punjab 141114</div>
+    <div class="info"><small>Opening Hours</small>Every day • 7:00 AM – 7:00 PM</div>
+    <div class="actions">
+     <a class="btn btn-primary" href="tel:+918968166187">Call Now</a>
+     <a class="btn btn-white" href="https://wa.me/918968166187?text=Hello%20Sanghu%20Motors%20Samrala">WhatsApp</a>
+    </div>
+   </div>
+   <div class="contact-card reveal">
+    <h3>Find the Workshop</h3>
+    <p style="color:#b9c7d4;font-size:17px">New Adarsh Nagar, near ITI, Samrala, Punjab 141114.</p>
+    <p style="color:#8fa2b5">Open Google Maps for directions to Sanghu Motors Samrala.</p>
+    <div class="actions">
+     <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sanghu%20Motors%20Samrala%2C%20New%20Adarsh%20Nagar%2C%20Samrala%2C%20Punjab%20141114">Open Google Maps</a>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>© <span id="year"></span> Sanghu Motors Samrala • New Adarsh Nagar, Samrala, Punjab 141114</footer>
+
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>{
+ entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("show")})
+},{threshold:.08});
+document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
